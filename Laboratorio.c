@@ -127,6 +127,7 @@ int main()
 	printf("\t1 - Registrar produto nomes\n");
 	printf("\t2 - Consultar produto nomes\n");
 	printf("\t3 - Deletar produto nomes \n"); 
+	printf("\t4 - sair do sistema \n");
 	printf("Opção: "); //fim do menu
 	
 	scanf("%d", &opcao); //armazenamento de scolha do usuario
@@ -148,6 +149,10 @@ int main()
 	    deletar();
 	    break;
 		
+		case 4:
+		printf("Obrigado por utilizar o sistema! \n");
+		return 0;
+		break;
 		
 		default:
 		printf("opção não disponivel");
